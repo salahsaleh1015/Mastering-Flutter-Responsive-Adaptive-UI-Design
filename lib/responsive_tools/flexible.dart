@@ -1,13 +1,8 @@
-import 'dart:developer';
 
-import 'package:flutter/material.dart';
-
-void main() {
-runApp(const FlexibleExample());
-}
 
 
 
+import 'package:flutter/material.dart';
 
 class FlexibleExample extends StatelessWidget {
   const FlexibleExample({super.key});
@@ -26,7 +21,7 @@ class FlexibleExample extends StatelessWidget {
               ),
             ),
             Container(
-          height: 150,
+              height: 150,
               color: Colors.lightBlue,
             ),
             Container(
