@@ -3,14 +3,14 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 
 void main() {
-runApp(const FlexibleExample());
+runApp(const FittedBoxExampleOne());
 }
 
 
 
 
-class FlexibleExample extends StatelessWidget {
-  const FlexibleExample({super.key});
+class FittedBoxExampleOne extends StatelessWidget {
+  const FittedBoxExampleOne({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,9 +20,11 @@ class FlexibleExample extends StatelessWidget {
         body: Column(
           children: [
             Flexible(
-              child: Container(
-                height: 505,
-                color: Colors.lightBlue,
+              child: FittedBox(
+                child: Icon(
+                 Icons.ac_unit,
+                  size: 300,
+                ),
               ),
             ),
             Container(
@@ -36,6 +38,10 @@ class FlexibleExample extends StatelessWidget {
             Container(
               height: 150,
               color: Colors.yellow,
+            ),
+            SizedBox(
+              height: 200,
+              child: FittedBox(child: Icon(Icons.abc)),
             )
           ],
         ),
