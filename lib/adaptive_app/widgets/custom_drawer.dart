@@ -16,7 +16,7 @@ class CustomDrawer extends StatelessWidget {
       child: Column(
         children: [
           DrawerHeader(
-            child: Icon(Icons.favorite, size: 50, color: Colors.black),
+            child: Icon(Icons.favorite, size: 80, color: Colors.black),
           ),
 
           ListView.builder(
