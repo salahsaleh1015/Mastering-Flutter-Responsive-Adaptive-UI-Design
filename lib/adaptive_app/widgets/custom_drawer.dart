@@ -41,7 +41,9 @@ class DrawerItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       leading: Icon(drawerItemModel.icon, size: 25),
-      title: Text(drawerItemModel.title),
+      title: FittedBox(
+          alignment: Alignment.centerLeft,
+          child: Text(drawerItemModel.title)),
     );
   }
 }
