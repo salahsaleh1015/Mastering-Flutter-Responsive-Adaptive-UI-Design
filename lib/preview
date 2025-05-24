@@ -21,5 +21,16 @@ Adaptive : Different UI for each platform
 * Constraints
 
 
+======================================
 
+           Responsive Text ( fontSize )
+1- scale factor for each platform (mobile , tablet , desktop)
+2- each scale factor has min,max default size
+
+* scale factor = width / chosen breakpoint for each platform
+  - chosen breakpoint for mobile = 400
+  - chosen breakpoint for tablet = 700
+  - chosen breakpoint for desktop = 1000
+
+* responsive font size = base font size * scale factor
 

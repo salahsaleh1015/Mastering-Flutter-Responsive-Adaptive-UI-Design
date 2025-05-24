@@ -21,6 +21,6 @@ class AdaptiveLayout extends StatelessWidget {
         return desktopLayout(context);
       },
     );
-    ;
+
   }
 }
