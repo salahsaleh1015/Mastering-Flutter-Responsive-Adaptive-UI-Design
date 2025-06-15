@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mastering_flutter_responsive_and_adaptive_ui_design_course/adaptive_app/widgets/adaptive_layout.dart';
+import 'package:mastering_flutter_responsive_and_adaptive_ui_design_course/widgets/adaptive_layout.dart';
 import 'package:mastering_flutter_responsive_and_adaptive_ui_design_course/adaptive_app/widgets/custom_sliver_grid_view.dart';
 import 'package:mastering_flutter_responsive_and_adaptive_ui_design_course/adaptive_app/widgets/custom_sliver_horizontal_list.dart';
 import 'package:mastering_flutter_responsive_and_adaptive_ui_design_course/adaptive_app/widgets/custom_sliver_list.dart';
