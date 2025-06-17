@@ -2,7 +2,7 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:mastering_flutter_responsive_and_adaptive_ui_design_course/adaptive_app/widgets/custom_item2.dart';
+import 'package:mastering_flutter_responsive_and_adaptive_ui_design_course/adaptive_app/adaptive_app_widgets/custom_item2.dart';
 
 class CustomSliverList extends StatelessWidget {
   const CustomSliverList({super.key});

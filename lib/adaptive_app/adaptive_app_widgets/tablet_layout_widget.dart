@@ -3,9 +3,8 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:mastering_flutter_responsive_and_adaptive_ui_design_course/adaptive_app/widgets/custom_sliver_horizontal_list.dart';
-import 'package:mastering_flutter_responsive_and_adaptive_ui_design_course/adaptive_app/widgets/custom_sliver_list.dart';
-
+import 'package:mastering_flutter_responsive_and_adaptive_ui_design_course/adaptive_app/adaptive_app_widgets/custom_sliver_horizontal_list.dart';
+import 'package:mastering_flutter_responsive_and_adaptive_ui_design_course/adaptive_app/adaptive_app_widgets/custom_sliver_list.dart';
 
 class TabletLayoutWidget extends StatelessWidget {
   const TabletLayoutWidget({super.key});

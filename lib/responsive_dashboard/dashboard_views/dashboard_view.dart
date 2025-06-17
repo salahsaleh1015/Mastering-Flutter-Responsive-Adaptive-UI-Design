@@ -2,8 +2,9 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:mastering_flutter_responsive_and_adaptive_ui_design_course/project_widgets/adaptive_layout.dart';
 
-import '../../adaptive_app/widgets/adaptive_layout.dart';
+
 import '../dashboard_widgets/dashboard_desktop_layout.dart';
 
 class DashboardView extends StatelessWidget {

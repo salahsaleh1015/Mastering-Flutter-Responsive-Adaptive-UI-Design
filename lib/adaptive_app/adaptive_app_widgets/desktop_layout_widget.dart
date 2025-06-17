@@ -2,10 +2,9 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:mastering_flutter_responsive_and_adaptive_ui_design_course/adaptive_app/widgets/custom_drawer.dart';
-import 'package:mastering_flutter_responsive_and_adaptive_ui_design_course/adaptive_app/widgets/desktop_third_section_widget.dart';
-import 'package:mastering_flutter_responsive_and_adaptive_ui_design_course/adaptive_app/widgets/tablet_layout_widget.dart';
-
+import 'package:mastering_flutter_responsive_and_adaptive_ui_design_course/adaptive_app/adaptive_app_widgets/custom_drawer.dart';
+import 'package:mastering_flutter_responsive_and_adaptive_ui_design_course/adaptive_app/adaptive_app_widgets/desktop_third_section_widget.dart';
+import 'package:mastering_flutter_responsive_and_adaptive_ui_design_course/adaptive_app/adaptive_app_widgets/tablet_layout_widget.dart';
 
 class DesktopLayoutWidget extends StatelessWidget {
   const DesktopLayoutWidget({super.key});

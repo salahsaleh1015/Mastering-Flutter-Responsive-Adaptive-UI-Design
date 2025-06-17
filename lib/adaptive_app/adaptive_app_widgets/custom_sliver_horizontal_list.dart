@@ -2,7 +2,7 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:mastering_flutter_responsive_and_adaptive_ui_design_course/adaptive_app/widgets/custom_item.dart';
+import 'package:mastering_flutter_responsive_and_adaptive_ui_design_course/adaptive_app/adaptive_app_widgets/custom_item.dart';
 
 class CustomSliverHorizontalList extends StatelessWidget {
   const CustomSliverHorizontalList({super.key});
